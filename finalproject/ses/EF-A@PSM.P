@@ -1,0 +1,44 @@
+((#(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PSM_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF PSM_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (PSM_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) 
+ENT PSM_ARCH () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK))
+GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((
+|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF 
+TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE| . ITEM)) ENT TRANSD () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT GENR () UNDEFINED () ()
+() () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP 
+() UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED ()
+() () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC
+() UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((
+|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD 
+GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((
+|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE| . 
+ITEM)) ENT GENR () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((
+|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) 
+TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT TRANSD () UNDEFINED () () () () ())) #(
+((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ENT EF () UNDEFINED () () 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (#(((
+|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) GENR
+EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((
+|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF 
+TRANSD (IN . SOLVED))) () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE|
+. ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PSM_ARCH EF (
+OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF PSM_ARCH (OUT . IN)) #(((|#!STRUCTURE| 
+. LINK)) EF EF-A (RESULT . OUT))) () () (PSM_ARCH EF)) #(((|#!STRUCTURE| . ITEM)
+) ENT EF () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+PSM_ARCH EF (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF PSM_ARCH (OUT . IN)) #(((
+|#!STRUCTURE| . LINK)) EF EF-A (RESULT . OUT))) () () (PSM_ARCH EF)) #(((
+|#!STRUCTURE| . ITEM)) ENT PSM_ARCH () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((
+|#!STRUCTURE| . LINK)) PSM_ARCH EF (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF 
+PSM_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF EF-A (RESULT . OUT))) () () (
+PSM_ARCH EF))))

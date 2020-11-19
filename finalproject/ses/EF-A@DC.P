@@ -1,0 +1,127 @@
+((#(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) D&C_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF D&C_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (D&C_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) 
+ENT D&C_ARCH () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED ()
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT DC-C () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ENT PSM1 () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ENT PSM2 () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM3
+() UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT P&DIV () UNDEFINED 
+() () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT P&CMPL () UNDEFINED () () () () 
+()) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . 
+LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT))
+#(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) 
+TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT TRANSD () UNDEFINED () () () () ()) #((
+(|#!STRUCTURE| . ITEM)) ENT GENR () UNDEFINED () () () () ())) #(((|#!STRUCTURE|
+. BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (
+#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) 
+GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((
+|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF 
+TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE| . ITEM)) ENT GENR () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . 
+ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)
+) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT))
+#(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE|
+. ITEM)) ENT TRANSD () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF () UNDEFINED () () () () ()) #(((|#!STRUCTURE|
+. ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT
+. ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . 
+LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . 
+RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT P&CMPL () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT P&DIV () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT PSM3 () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT PSM2 () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT PSM1 () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+DC-C D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C)) #(((|#!STRUCTURE| . ITEM)) ENT DC-C () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ENT D&C_ARCH () UNDEFINED ()
+() () () ()) #(((|#!STRUCTURE| . ITEM)) ASP D&C-DEC () UNDEFINED () (#(((
+|#!STRUCTURE| . LINK)) D&C_ARCH DC-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) DC-C 
+D&C_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) DC-C PSM1 (X1 . IN)) #(((
+|#!STRUCTURE| . LINK)) DC-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C PSM3
+(X3 . IN)) #(((|#!STRUCTURE| . LINK)) DC-C P&DIV (PX . IN)) #(((|#!STRUCTURE| . 
+LINK)) DC-C P&CMPL (CX . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 DC-C (OUT . Y1)) 
+#(((|#!STRUCTURE| . LINK)) PSM2 DC-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3
+DC-C (OUT . Y3)) #(((|#!STRUCTURE| . LINK)) P&DIV DC-C (OUT . PY)) #(((
+|#!STRUCTURE| . LINK)) P&CMPL DC-C (OUT . CY))) () () (P&CMPL P3 P2 P1 P&DIV 
+DC-C))) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP EF-A-DEC () 
+UNDEFINED () (#(((|#!STRUCTURE| . LINK)) D&C_ARCH EF (OUT . IN)) #(((
+|#!STRUCTURE| . LINK)) EF D&C_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF 
+EF-A (RESULT . OUT))) () () (D&C_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) D&C_ARCH EF (OUT . 
+IN)) #(((|#!STRUCTURE| . LINK)) EF D&C_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK
+)) EF EF-A (RESULT . OUT))) () () (D&C_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT 
+D&C_ARCH () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) D&C_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF D&C_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (D&C_ARCH EF))))

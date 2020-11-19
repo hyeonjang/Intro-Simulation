@@ -1,0 +1,91 @@
+((#(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PIP_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF PIP_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (PIP_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) 
+ENT PIP_ARCH () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ASP PIP-DEC () UNDEFINED ()
+(#(((|#!STRUCTURE| . LINK)) PIP_ARCH PIP-C (IN . IN)) #(((|#!STRUCTURE| . LINK))
+PIP-C PIP_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) PIP-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 PIP-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 PIP-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+PIP-C (OUT . Y3))) () () (PSM1 PSM2 PSM3 PIP-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+PIP-C () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM1 () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM2 () UNDEFINED () ()
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM3 () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((
+|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) 
+TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT TRANSD () UNDEFINED () () () () ()) #((
+(|#!STRUCTURE| . ITEM)) ENT GENR () UNDEFINED () () () () ())) #(((|#!STRUCTURE|
+. BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (
+#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) 
+GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((
+|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF 
+TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE| . ITEM)) ENT GENR () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . 
+ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)
+) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT))
+#(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE|
+. ITEM)) ENT TRANSD () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF () UNDEFINED () () () () ()) #(((|#!STRUCTURE|
+. ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT
+. ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . 
+LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . 
+RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP PIP-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) PIP_ARCH PIP-C (IN . IN)) #(((|#!STRUCTURE| . LINK))
+PIP-C PIP_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) PIP-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 PIP-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 PIP-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+PIP-C (OUT . Y3))) () () (PSM1 PSM2 PSM3 PIP-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+PSM3 () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ASP PIP-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+PIP_ARCH PIP-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C PIP_ARCH (OUT . OUT))
+#(((|#!STRUCTURE| . LINK)) PIP-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) 
+PIP-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM3 (X3 . IN)) #(((
+|#!STRUCTURE| . LINK)) PSM1 PIP-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 
+PIP-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 PIP-C (OUT . Y3))) () () (PSM1
+PSM2 PSM3 PIP-C)) #(((|#!STRUCTURE| . ITEM)) ENT PSM2 () UNDEFINED () () () () 
+())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP PIP-DEC () 
+UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PIP_ARCH PIP-C (IN . IN)) #(((
+|#!STRUCTURE| . LINK)) PIP-C PIP_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) 
+PIP-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM2 (X2 . IN)) #(((
+|#!STRUCTURE| . LINK)) PIP-C PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 
+PIP-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 PIP-C (OUT . Y2)) #(((
+|#!STRUCTURE| . LINK)) PSM3 PIP-C (OUT . Y3))) () () (PSM1 PSM2 PSM3 PIP-C)) #((
+(|#!STRUCTURE| . ITEM)) ENT PSM1 () UNDEFINED () () () () ())) #(((|#!STRUCTURE|
+. BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP PIP-DEC () UNDEFINED () (#(((
+|#!STRUCTURE| . LINK)) PIP_ARCH PIP-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+PIP-C PIP_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) PIP-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 PIP-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 PIP-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+PIP-C (OUT . Y3))) () () (PSM1 PSM2 PSM3 PIP-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+PIP-C () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ENT PIP_ARCH () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ASP PIP-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+PIP_ARCH PIP-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C PIP_ARCH (OUT . OUT))
+#(((|#!STRUCTURE| . LINK)) PIP-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) 
+PIP-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) PIP-C PSM3 (X3 . IN)) #(((
+|#!STRUCTURE| . LINK)) PSM1 PIP-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 
+PIP-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 PIP-C (OUT . Y3))) () () (PSM1
+PSM2 PSM3 PIP-C))) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP 
+EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PIP_ARCH EF (OUT . IN)) #((
+(|#!STRUCTURE| . LINK)) EF PIP_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF 
+EF-A (RESULT . OUT))) () () (PIP_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PIP_ARCH EF (OUT . 
+IN)) #(((|#!STRUCTURE| . LINK)) EF PIP_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK
+)) EF EF-A (RESULT . OUT))) () () (PIP_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT 
+PIP_ARCH () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) PIP_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF PIP_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (PIP_ARCH EF))))

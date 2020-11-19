@@ -1,0 +1,91 @@
+((#(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) MUL_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF MUL_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (MUL_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) 
+ENT MUL_ARCH () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ASP MUL-DEC () UNDEFINED ()
+(#(((|#!STRUCTURE| . LINK)) MUL_ARCH MUL-C (IN . IN)) #(((|#!STRUCTURE| . LINK))
+MUL-C MUL_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) MUL-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 MUL-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 MUL-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+MUL-C (OUT . Y3))) () () (PL1 PL2 PL3 MUL-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+MUL-C () UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM1 () 
+UNDEFINED () () () () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM2 () UNDEFINED () ()
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT PSM3 () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((
+|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) 
+TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) 
+() () ()) #(((|#!STRUCTURE| . ITEM)) ENT TRANSD () UNDEFINED () () () () ()) #((
+(|#!STRUCTURE| . ITEM)) ENT GENR () UNDEFINED () () () () ())) #(((|#!STRUCTURE|
+. BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP ROOT-ASP () UNDEFINED () () () () ()) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP EF-DEC () UNDEFINED () (
+#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . ARIV)) #(((|#!STRUCTURE| . LINK)) 
+GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) TRANSD GENR (OUT . STOP)) #(((
+|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT)) #(((|#!STRUCTURE| . LINK)) EF 
+TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE| . ITEM)) ENT GENR () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT . 
+ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . LINK)
+) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . RESULT))
+#(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ()) #(((|#!STRUCTURE|
+. ITEM)) ENT TRANSD () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) 
+#(((|#!STRUCTURE| . ITEM)) ENT EF () UNDEFINED () () () () ()) #(((|#!STRUCTURE|
+. ITEM)) ASP EF-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) GENR TRANSD (OUT
+. ARIV)) #(((|#!STRUCTURE| . LINK)) GENR EF (OUT . OUT)) #(((|#!STRUCTURE| . 
+LINK)) TRANSD GENR (OUT . STOP)) #(((|#!STRUCTURE| . LINK)) TRANSD EF (OUT . 
+RESULT)) #(((|#!STRUCTURE| . LINK)) EF TRANSD (IN . SOLVED))) () () ())) #(((
+|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP MUL-DEC () UNDEFINED () 
+(#(((|#!STRUCTURE| . LINK)) MUL_ARCH MUL-C (IN . IN)) #(((|#!STRUCTURE| . LINK))
+MUL-C MUL_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) MUL-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 MUL-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 MUL-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+MUL-C (OUT . Y3))) () () (PL1 PL2 PL3 MUL-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+PSM3 () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ASP MUL-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+MUL_ARCH MUL-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C MUL_ARCH (OUT . OUT))
+#(((|#!STRUCTURE| . LINK)) MUL-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) 
+MUL-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM3 (X3 . IN)) #(((
+|#!STRUCTURE| . LINK)) PSM1 MUL-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 
+MUL-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 MUL-C (OUT . Y3))) () () (PL1 
+PL2 PL3 MUL-C)) #(((|#!STRUCTURE| . ITEM)) ENT PSM2 () UNDEFINED () () () () ())
+) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP MUL-DEC () 
+UNDEFINED () (#(((|#!STRUCTURE| . LINK)) MUL_ARCH MUL-C (IN . IN)) #(((
+|#!STRUCTURE| . LINK)) MUL-C MUL_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) 
+MUL-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM2 (X2 . IN)) #(((
+|#!STRUCTURE| . LINK)) MUL-C PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 
+MUL-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 MUL-C (OUT . Y2)) #(((
+|#!STRUCTURE| . LINK)) PSM3 MUL-C (OUT . Y3))) () () (PL1 PL2 PL3 MUL-C)) #(((
+|#!STRUCTURE| . ITEM)) ENT PSM1 () UNDEFINED () () () () ())) #(((|#!STRUCTURE| 
+. BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP MUL-DEC () UNDEFINED () (#(((
+|#!STRUCTURE| . LINK)) MUL_ARCH MUL-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) 
+MUL-C MUL_ARCH (OUT . OUT)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM1 (X1 . IN)) #((
+(|#!STRUCTURE| . LINK)) MUL-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C 
+PSM3 (X3 . IN)) #(((|#!STRUCTURE| . LINK)) PSM1 MUL-C (OUT . Y1)) #(((
+|#!STRUCTURE| . LINK)) PSM2 MUL-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 
+MUL-C (OUT . Y3))) () () (PL1 PL2 PL3 MUL-C)) #(((|#!STRUCTURE| . ITEM)) ENT 
+MUL-C () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ENT MUL_ARCH () UNDEFINED () () () () ()) #(((
+|#!STRUCTURE| . ITEM)) ASP MUL-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) 
+MUL_ARCH MUL-C (IN . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C MUL_ARCH (OUT . OUT))
+#(((|#!STRUCTURE| . LINK)) MUL-C PSM1 (X1 . IN)) #(((|#!STRUCTURE| . LINK)) 
+MUL-C PSM2 (X2 . IN)) #(((|#!STRUCTURE| . LINK)) MUL-C PSM3 (X3 . IN)) #(((
+|#!STRUCTURE| . LINK)) PSM1 MUL-C (OUT . Y1)) #(((|#!STRUCTURE| . LINK)) PSM2 
+MUL-C (OUT . Y2)) #(((|#!STRUCTURE| . LINK)) PSM3 MUL-C (OUT . Y3))) () () (PL1 
+PL2 PL3 MUL-C))) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM)) ASP 
+EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) MUL_ARCH EF (OUT . IN)) #((
+(|#!STRUCTURE| . LINK)) EF MUL_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK)) EF 
+EF-A (RESULT . OUT))) () () (MUL_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT EF () 
+UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((|#!STRUCTURE| . ITEM
+)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) MUL_ARCH EF (OUT . 
+IN)) #(((|#!STRUCTURE| . LINK)) EF MUL_ARCH (OUT . IN)) #(((|#!STRUCTURE| . LINK
+)) EF EF-A (RESULT . OUT))) () () (MUL_ARCH EF)) #(((|#!STRUCTURE| . ITEM)) ENT 
+MUL_ARCH () UNDEFINED () () () () ())) #(((|#!STRUCTURE| . BRANCH)) #(((
+|#!STRUCTURE| . ITEM)) ENT EF-A () UNDEFINED () () () () ()) #(((|#!STRUCTURE| .
+ITEM)) ASP EF-A-DEC () UNDEFINED () (#(((|#!STRUCTURE| . LINK)) MUL_ARCH EF (OUT
+. IN)) #(((|#!STRUCTURE| . LINK)) EF MUL_ARCH (OUT . IN)) #(((|#!STRUCTURE| . 
+LINK)) EF EF-A (RESULT . OUT))) () () (MUL_ARCH EF))))
